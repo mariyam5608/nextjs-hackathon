@@ -1,5 +1,5 @@
 'use client'
-import { faCogs, faGasPump, faHeart, faStar, faStarHalfAlt, faSyncAlt, faUserFriends } from '@fortawesome/free-solid-svg-icons'
+import { faCogs, faGasPump, faHeart, faStar, faStarHalfAlt, faUserFriends } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import Image from "next/image";
@@ -112,7 +112,7 @@ const Detail = () => {
             </div>
             <FontAwesomeIcon icon={faHeart} className="text-red-500" />
         </div>
-        <p className="text-gray-600 mt-4">NISMO has become the embodiment of Nissan's outstanding performance, inspired by the most unforgiving proving ground, the "race track".</p>
+        <p className="text-gray-600 mt-4">NISMO has become the embodiment of Nissans outstanding performance, inspired by the most unforgiving proving ground, the race track.</p>
         <div className="grid grid-cols-2 gap-4 mt-4 text-gray-500">
             <div>
                 <span>Type Car</span>
