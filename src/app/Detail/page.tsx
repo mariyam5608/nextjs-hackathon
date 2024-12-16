@@ -136,7 +136,7 @@ const Detail = () => {
                 <span className="text-2xl font-bold text-black">$80.00</span><span className="text-gray-500">/ days</span>
                 <p className="text-gray-400 line-through">$100.00</p>
             </div>
-            <button className="bg-blue-500 text-white px-4 py-2 rounded-lg">Rent Now</button>
+            <a href="/Payment"><button className="bg-blue-500 text-white px-4 py-2 rounded-lg">Rent Now</button></a>
         </div>
     </div>
 </div>
@@ -198,8 +198,8 @@ const Detail = () => {
                                 <span className="text-sm text-gray-500">/ day
                                 </span>
                             </div>
-                            <a href="/Payment"><button className="bg-blue-600 text-white px-4 py-2 rounded">Rent Now
-                            </button></a>
+                            <button className="bg-blue-600 text-white px-4 py-2 rounded">Rent Now
+                            </button>
                         </div>
                 </div>
              {/* <!-- Card 2 --> */}
