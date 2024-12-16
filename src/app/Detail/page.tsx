@@ -198,8 +198,8 @@ const Detail = () => {
                                 <span className="text-sm text-gray-500">/ day
                                 </span>
                             </div>
-                            <button className="bg-blue-600 text-white px-4 py-2 rounded">Rent Now
-                            </button>
+                            <a href="/Payment"><button className="bg-blue-600 text-white px-4 py-2 rounded">Rent Now
+                            </button></a>
                         </div>
                 </div>
              {/* <!-- Card 2 --> */}
